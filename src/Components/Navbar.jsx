@@ -19,10 +19,7 @@ function Navbar() {
           <NavLink to="/" className="hover:text-[#1D3244] px-4 py-2">
             Home
           </NavLink>
-          <NavLink to="/about" className="hover:text-[#1D3244] px-4 py-2">
-            About Us
-          </NavLink>
-          <NavLink to="/services" className="hover:text-[#1D3244] px-4 py-2">
+          <NavLink to="/service" className="hover:text-[#1D3244] px-4 py-2">
             Services
           </NavLink>
           <NavLink to="/contact" className="hover:text-[#1D3244] px-4 py-2">
@@ -55,14 +52,7 @@ function Navbar() {
               Home
             </NavLink>
             <NavLink
-              to="/about"
-              className="text-lg text-white hover:bg-[#2a4a5e] px-4 py-2 rounded"
-              onClick={toggleMenu}
-            >
-              About Us
-            </NavLink>
-            <NavLink
-              to="/services"
+              to="/service"
               className="text-lg text-white hover:bg-[#2a4a5e] px-4 py-2 rounded"
               onClick={toggleMenu}
             >

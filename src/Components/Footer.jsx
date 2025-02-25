@@ -6,8 +6,8 @@ const footerData = [
     title: "Company",
     links: [
       { name: "Home", path: "/" },
-      { name: "About Us", path: "/about" },
-      { name: "How we work", path: "#" },
+      { name: "About Us", path: "/" },
+      { name: "Our Product", path: "#" },
     ],
   },
   {
