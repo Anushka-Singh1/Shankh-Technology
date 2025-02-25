@@ -23,7 +23,9 @@ const footerData = [
       { name: "Facebook", path: "#" },
       { name: "Twitter", path: "https://x.com/Shankh_Tech" },
       { name: "LinkedIn", path: "#" },
-      { name: "Instagram", path: "https://www.instagram.com/shankh_technologies/",
+      {
+        name: "Instagram",
+        path: "https://www.instagram.com/shankh_technologies/",
       },
     ],
   },
@@ -32,7 +34,7 @@ const footerData = [
     links: [
       { name: "Terms and Conditions", path: "#" },
       { name: "Privacy Policies", path: "#" },
-      { name: "Company details", path: "#" },
+      { name: "Company details", path: "/company-details" },
     ],
   },
 ];
