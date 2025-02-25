@@ -21,8 +21,10 @@ const footerData = [
     title: "Social Media",
     links: [
       { name: "Facebook", path: "#" },
-      { name: "Twitter", path: "#" },
+      { name: "Twitter", path: "https://x.com/Shankh_Tech" },
       { name: "LinkedIn", path: "#" },
+      { name: "Instagram", path: "https://www.instagram.com/shankh_technologies/",
+      },
     ],
   },
   {
@@ -54,7 +56,14 @@ const Footer = () => {
                       {link.name}
                     </Link>
                   ) : (
-                    link.name
+                    <a
+                      href={link.path}
+                      className="hover:text-white"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {link.name}
+                    </a>
                   )}
                 </p>
               ))}
