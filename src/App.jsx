@@ -1,16 +1,18 @@
-
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import Home from "./Pages/Home";
 
 function App() {
  
 
   return (
     <>
-      <div className="h-screen flex justify-center items-center bg-gray-900">
-        <h1 className="text-4xl font-bold text-white">
-          Shankh Technology! 🎉
-        </h1>
-      </div>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+      <Footer/>
     </>
   );
 }
