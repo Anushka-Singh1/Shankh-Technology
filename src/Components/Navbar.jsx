@@ -22,9 +22,9 @@ function Navbar() {
           <NavLink to="/service" className="hover:text-[#1D3244] px-4 py-2">
             Services
           </NavLink>
-          <NavLink to="/contact" className="hover:text-[#1D3244] px-4 py-2">
+          {/* <NavLink to="/contact" className="hover:text-[#1D3244] px-4 py-2">
             Contact Us
-          </NavLink>
+          </NavLink> */}
         </div>
         <button
           className="text-2xl focus:outline-none md:hidden"
@@ -63,7 +63,7 @@ function Navbar() {
               className="text-lg text-white hover:bg-[#2a4a5e] px-4 py-2 rounded"
               onClick={toggleMenu}
             >
-              Contact
+              Upcomings
             </NavLink>
           </div>
         </div>
