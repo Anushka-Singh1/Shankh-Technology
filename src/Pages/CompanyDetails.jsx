@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../assets/CompanyDetails/CompanyDetails.svg";
 
 function CompanyDetails() {
     return (

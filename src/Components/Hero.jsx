@@ -15,9 +15,6 @@ function Hero() {
           From Designing to development, our team is dedicated to turning your
           ideas into extraordinary realities.
         </p>
-        <button className="bg-[#C89116] text-white px-6 py-2 mt-4 rounded-lg">
-          Know More
-        </button>
       </div>
       <div className=" w-full md:w-1/2">
         <img src={Image} alt="Hero" className="w-full" />

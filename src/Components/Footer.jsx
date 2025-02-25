@@ -7,13 +7,11 @@ const footerData = [
     links: [
       { name: "Home", path: "/" },
       { name: "About Us", path: "/" },
-      { name: "Our Product", path: "#" },
     ],
   },
   {
     title: "Contact Us",
     links: [
-      { name: "Help/FAQs", path: "#" },
       { name: "Email us", path: "#" },
     ],
   },
